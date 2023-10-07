@@ -1,0 +1,52 @@
+.follow-card {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    align-items: center;
+}
+
+.follow-card__image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.follow-card__content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow-card__info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-card__info span {
+    color: #adadadc1;
+}
+
+.follow-card__button {
+    border: none;
+    border-radius: 4rem;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+}
+
+.follow-card__button--following {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-inline: 25px;
+    transition: 0.3s;
+}
+
+.follow-card__button--following:hover {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+}
